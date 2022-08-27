@@ -7,3 +7,8 @@ The course:
 The language is pt_BR(Brazilian Portuguese)
 
 This repo may be deleted in the future.
+
+| Using:  | Version |
+|---------|---------|
+| Node.Js | v18.7.0 |
+| NPM | 8.15.0 |
