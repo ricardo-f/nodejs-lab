@@ -1,5 +1,14 @@
 {
+  "name": "awsnetinfo",
+  "version": "1.0.0",
+  "description": "get from aws api vpcId, subnetId, CidrBlock and number of Available IPs",
+  "main": "awsNetInfo.js",
   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1204.0"
   }
