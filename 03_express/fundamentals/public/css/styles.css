@@ -1,6 +1,8 @@
 body {
   background-color: #fffca9;
-  font-style: italic;
+  font-style: bold;
+  font-family: monospace;
+  color: lightcoral;
   text-align: center;
   padding: 2em;
 }
