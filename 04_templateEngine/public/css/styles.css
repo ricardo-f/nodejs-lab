@@ -1,0 +1,18 @@
+body {
+  background-color: gray;
+  font-style: bold;
+  font-family: monospace;
+  padding: 2em;
+}
+
+h1 {
+  color: lightcyan;
+}
+
+h2 {
+  color: lightblue;
+}
+
+p {
+  color: aquamarine;
+}

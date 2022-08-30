@@ -3,8 +3,10 @@
 <p>Name: {{user.name}} </br> Surname {{user.surname}}</p>
 {{#if auth}}
   <p>
-    the auth var is true, <a href="/dashboard">click here</a> to access dashboard.</br>
-    the auth var is true, <a href="/blog">click here</a> to access blog.
+    the auth var is true:
+    <br> <a href="/dashboard">click here</a> to access dashboard.</br>
+    <a href="/blog">click here</a> to access blog. </br>
+    <a href="/post">click here</a> to go to blogposts.
   </p>
 {{else}}
   <p>
