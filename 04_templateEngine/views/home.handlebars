@@ -1,0 +1,13 @@
+<h1>Index view</h1>
+<p>This is a paragraph at home</p>
+<p>Name: {{user.name}} </br> Surname {{user.surname}}</p>
+{{#if auth}}
+  <p>
+    the auth var is true, <a href="/dashboard">click here</a> to access dashboard.</br>
+    the auth var is true, <a href="/blog">click here</a> to access blog.
+  </p>
+{{else}}
+  <p>
+    the auth var is false.
+  </p>
+{{/if}}
