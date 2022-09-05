@@ -1,18 +1,18 @@
 # My personal shareable notes
 
-**create schema/database nodemysql**
+**create schema/database bookstoredb**
 
 ```sql
-CREATE DATABASE nodemysql;
+CREATE DATABASE bookstoredb;
 ```
 
-**select the nodemysql schema/database**
+**select the bookstoredb schema/database**
 
 ```sql
-USE nodemysql;
+USE bookstoredb;
 ```
 
-**This create a table inside the nodemysql schema/database**
+**This create a table inside the bookstoredb schema/database**
 
 ```sql
 CREATE TABLE `books` (
@@ -21,3 +21,6 @@ CREATE TABLE `books` (
   `pageqty` INT NULL,
   PRIMARY KEY (`id`));
 ```
+
+Interesting site with tip to avoid SQL Injection:
+https://planetscale.com/blog/how-to-prevent-sql-injection-attacks-in-node-js
