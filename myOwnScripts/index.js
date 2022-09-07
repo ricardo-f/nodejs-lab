@@ -22,8 +22,8 @@ app.get('/', function (req, res) {
       console.log(err);
     }
     else {
-      const results = data.Subnets;
-      await res.render('home', { results })
+      const results = await data.Subnets;
+      res.render('home', { results })
     }
   });
 })
