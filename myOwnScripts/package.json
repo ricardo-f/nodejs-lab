@@ -2,13 +2,13 @@
   "name": "awsnetinfo",
   "version": "1.0.0",
   "description": "get from aws api vpcId, subnetId, CidrBlock and number of Available IPs",
-  "main": "awsNetInfo.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js localhost 3000"
   },
-  "author": "",
+  "author": "Ricardo Ferreira",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1204.0",
