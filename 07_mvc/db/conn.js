@@ -13,4 +13,4 @@ try {
   console.log(`Unable to connect: ${error}`)
 }
 
-exports.default = sequelize
+module.exports = sequelize
