@@ -10,6 +10,7 @@ const Thought = require('./models/Thoughts')
 const User = require('./models/User')
 // Importing Routes
 const thoughtsRoutes = require('./routes/thoughtsRoutes')
+const authRoutes = require('./routes/authRoutes')
 // Importing Controller
 const ThoughtController = require('./controllers/ThoughtController')
 // Database connection
@@ -65,6 +66,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.use('/thoughts', thoughtsRoutes)
+app.use('/', authRoutes)
 app.get('/', ThoughtController.showThoughts)
 
 conn.sync()
