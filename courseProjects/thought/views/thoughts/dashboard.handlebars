@@ -1,0 +1,21 @@
+<div class="dashboard">
+  <div class="title-container">
+    <h2>Dashboard</h2>
+    <a href="/thoughts/add" class="btn">Share a thought</a>
+  </div>
+  <h3>Your thought</h3>
+  <ul>
+    {{#each thought }}
+    <li>
+      <span class="label">{{this.title}}</span>
+      <span class="actions">
+        <a href="/" class="btn">Edit</a>
+        <form action="/">
+          <input type="hidden" name="id" value="{{this.id}}">
+          <input type="submit" value="Delete" class="btn">
+        </form>
+      </span>
+    </li>
+    {{/each}}
+  </ul>
+</div>
