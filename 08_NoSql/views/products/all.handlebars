@@ -4,7 +4,10 @@
   <div class="product">
     <img src="{{this.image}}" alt="{{this.name}}">
     <h2>{{this.name}}</h2>
-    <p>R${{this.price}}</p>
+    <p>R$ {{this.price}}</p>
+    <div class="actions">
+      <a href="/products/{{this._id}}">Details</a>
+    </div>
   </div>
   {{/each}}
 </div>
